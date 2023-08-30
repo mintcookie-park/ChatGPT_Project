@@ -1,0 +1,59 @@
+body {
+    /* 화면 중앙 정렬 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .chat-container {
+    /* 채팅 컨테이너 크기 설정 */
+    width: 1000px;
+    height: 600px;
+    background-color: #79d7a0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chat-log {
+    /* 채팅 로그 스크롤 가능하도록 설정 */
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .input-container {
+    /* 입력 창과 버튼 정렬 */
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+  }
+  
+  /* 사용자 채팅 스타일 */
+  .message.user {
+    align-self: flex-start; /* 오른쪽 정렬 */
+    background-color: #007bff;
+    color: white;
+    border-radius: 10px;
+    padding: 8px 12px;
+    margin: 5px;
+    max-width: 40%;
+  }
+  
+  /* AI 채팅 스타일 */
+  .message.AI {
+    align-self: flex-end; /* 왼쪽 정렬 */
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    padding: 8px 12px;
+    margin: 5px;
+    max-width: 40%;
+  }
+  

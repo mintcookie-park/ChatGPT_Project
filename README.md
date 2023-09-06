@@ -38,6 +38,7 @@
    '안녕'이라는 대답이 들어 있을 시 인사로 응대하고
    '날씨'와 관련된 채팅이 들어오면 날씨 정보 조회한 후
    관련 내용을 전달해줍니다.
+   <br>
    ![첫이미지사진](https://github.com/mintcookie-park/ChatGPT_Project/assets/79849531/53567e1c-952e-46b9-9660-2adc969e3ff1)
 
    ![날씨알려줘](https://github.com/mintcookie-park/ChatGPT_Project/assets/79849531/4762fc49-90a1-4315-a0c5-c93a49d40dfd)
